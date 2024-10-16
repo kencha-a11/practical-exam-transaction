@@ -1,4 +1,4 @@
-<h1>INDEX</h1>
+<h1>TRANSACTION</h1>
 <hr>
 <a href="{{route('create')}}">create account</a>
 <hr>

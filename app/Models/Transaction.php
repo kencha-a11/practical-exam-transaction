@@ -2,12 +2,12 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory; // add
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Useraccount extends Model
+class Transaction extends Model
 {
-    use HasFactory; // add
+    use HasFactory;
     protected $fillable = [
         'transaction_title', 'description', 'status', 'total_amount', 'transaction_number',
     ];

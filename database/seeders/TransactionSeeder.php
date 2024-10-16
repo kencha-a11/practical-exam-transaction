@@ -4,9 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Useraccount;
+use App\Models\Transaction;
 
-class UseraccountSeeder extends Seeder
+class TransactionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +14,6 @@ class UseraccountSeeder extends Seeder
     public function run(): void
     {
         // Using factory to create 10 Useraccount entries
-        Useraccount::factory(5)->create();
+        Transaction::factory(5)->create();
     }
 }

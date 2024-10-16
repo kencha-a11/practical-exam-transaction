@@ -1,4 +1,4 @@
-<h1>VIEW</h1>
+<h1>VIEW TRANSACTION</h1>
 <hr>
     {{-- 'transaction_title', 'description', 'status', 'total_amount', 'transaction_number', --}}
     id:{{$account->id}} <br>
