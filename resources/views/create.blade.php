@@ -1,5 +1,6 @@
 <h1>CREATE TRANSACTION</h1>
 <hr>
+<a href="{{route('index')}}">return to index</a>
 <form action="{{ route('store') }}" method="POST">
     @csrf
     {{-- 'transaction_title', 'description', 'status', 'total_amount', 'transaction_number', --}}

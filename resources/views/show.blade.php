@@ -1,13 +1,13 @@
 <h1>VIEW TRANSACTION</h1>
 <hr>
     {{-- 'transaction_title', 'description', 'status', 'total_amount', 'transaction_number', --}}
-    id:{{$account->id}} <br>
-    transaction_title: {{$account->transaction_title}} <br>
-    description:{{$account->description}} <br>
-    status:{{$account->status}} <br>
-    total_amount:{{$account->total_amount}} <br>
-    transaction_number:{{$account->transaction_number}} <br>
-    created_at:{{$account->created_at}} <br>
-    updated_at:{{$account->updated_at}} <br>
+ <b>id:</b>{{$account->id}} <br>
+ <b>transaction_title:</b>{{$account->transaction_title}} <br>
+ <b>description:</b>{{$account->description}} <br>
+ <b>status:</b>{{$account->status}} <br>
+ <b>total_amount:</b>{{$account->total_amount}} <br>
+ <b>transaction_number:</b>{{$account->transaction_number}} <br>
+ <b>created_at:</b>{{$account->created_at}} <br>
+ <b>updated_at:</b>{{$account->updated_at}} <br>
 
     <a href="{{route('index')}}">return index</a>
