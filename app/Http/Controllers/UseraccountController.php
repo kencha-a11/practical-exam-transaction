@@ -56,7 +56,7 @@ class UseraccountController extends Controller
             // 'transaction_title', 'description', 'status', 'total_amount', 'transaction_number',
             'transaction_title'=>'required|string|max:255',
             'description'=>'required|string|max:255',
-            'status'=>'required|in:active,inactive',
+            'status'=>'required|in:successful,declined',
             'total_amount' => 'required|numeric',
             'transaction_number'=>'required|integer',
         ]);
